@@ -58,4 +58,5 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 * And name your OAuth 2.0 client.
 * In OAuth 2.0 Client IDs click in Download OAuth client.
 * Download JSON
-* [...]
+* Place the JSON file in the same project folder
+* 
