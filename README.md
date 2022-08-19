@@ -42,4 +42,16 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 * Enable it.
 * Click in navigation menu in top-left 
 * Click in APIs & Service > OAuth consent screen.
-* [...]
+* In User Type select External and crate
+
+![image](https://user-images.githubusercontent.com/86629562/185678992-f3428a4d-21e7-48de-82af-c69d614e032f.png)
+
+* Insert a App name and put your email for suport and contact (logo and others things are not mandatory)
+* In Scopes just click in Save and Continue.
+* In Test User add if you want. In my case I didn't use.
+* Check the summary and click in Back to Dashboard.
+* Now go to Credentials in side bar.
+* Create Credentials > OAuth client ID.
+* Aplication Type: Desktop app.
+* And name your OAuth 2.0 client.
+* 
