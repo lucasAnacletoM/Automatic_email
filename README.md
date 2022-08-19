@@ -23,3 +23,7 @@ First you need to configure you google account to work with external application
 ![image](https://user-images.githubusercontent.com/86629562/185667744-449058c9-2ec5-41fc-9276-c11192e054f9.png)
 
 * Put your email and App password in .env file
+
+Now you need to enable Google API
+
+* [...]
