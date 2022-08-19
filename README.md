@@ -31,4 +31,4 @@ Now you need to enable Google API
 
 ![image](https://user-images.githubusercontent.com/86629562/185675646-f09ee529-f0d5-4db3-9a13-8893d855d2eb.png)
 
-*Then click in creat project.
+* Then click in creat project.
