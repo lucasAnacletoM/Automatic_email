@@ -20,8 +20,8 @@ SAMPLE_RANGE_NAME = 'data!A2:D100'
 
 
 def check_sheet_size(values):
-    width_of_spreadsheet = len(values)
-    return(width_of_spreadsheet)
+    spreadsheet_width = len(values)
+    return(spreadsheet_width)
 
 
 def authenticate_with_google():  # validate with google
@@ -49,11 +49,11 @@ def authenticate_with_google():  # validate with google
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
                                     range=SAMPLE_RANGE_NAME).execute()  # take sheet values
         values = result.get('values', [])
-        width_of_spreedsheet = check_sheet_size(values)
+        spreadsheet_width = check_sheet_size(values)
 
     except HttpError as err:  # apenas mensagem de erro
         print(err)
-    return(values, width_of_spreedsheet)
+    return(values, spreadsheet_width)
 
 
 values = authenticate_with_google()
