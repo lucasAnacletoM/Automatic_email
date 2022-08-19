@@ -33,6 +33,8 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 
 * Then click in creat project.
 * Name your project and change the location if you want.
+* Click in OK.
+* Now in OAuth 2.0 Client IDs click in 
 * In the serch bar serch for Google drive api
 * select the first result
 
@@ -54,4 +56,6 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 * Create Credentials > OAuth client ID.
 * Aplication Type: Desktop app.
 * And name your OAuth 2.0 client.
-* 
+* In OAuth 2.0 Client IDs click in Download OAuth client.
+* Download JSON
+* [...]
