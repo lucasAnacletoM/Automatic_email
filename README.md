@@ -24,7 +24,7 @@ First you need to configure you google account to work with external application
 
 * Put your email and App password in .env file
 
-Now you need to enable Google API
+Now you need to enable Google APIs (Google Drive and Google Sheats)
 
 * Access console.cloud.google.com (just serch for Google developer console)
 * Click in APIs & Services > Enable APIs & Services.
@@ -32,4 +32,10 @@ Now you need to enable Google API
 ![image](https://user-images.githubusercontent.com/86629562/185675646-f09ee529-f0d5-4db3-9a13-8893d855d2eb.png)
 
 * Then click in creat project.
-* [...]
+* Name your project and change the location if you want.
+* In the serch bar serch for Google drive api
+* select the first result
+
+
+![image](https://user-images.githubusercontent.com/86629562/185677600-22a23bc6-e733-42e2-b74f-972bcb3cc1ba.png)
+
