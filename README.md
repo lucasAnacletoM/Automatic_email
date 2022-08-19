@@ -6,7 +6,7 @@ Just a simple work with automatic email with Google API
 
 I'm working on README...please wait. :^)
 
-## HOW IT WORKS
+## THE PROJECT
 
 This program send automatic emails to new applications in Google forms.
 
