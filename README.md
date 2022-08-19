@@ -66,4 +66,4 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 
-*[...]
+* [...]
