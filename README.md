@@ -39,3 +39,7 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 
 ![image](https://user-images.githubusercontent.com/86629562/185677600-22a23bc6-e733-42e2-b74f-972bcb3cc1ba.png)
 
+* Enable it.
+* Click in navigation menu in top-left 
+* Click in APIs & Service > OAuth consent screen.
+* [...]
