@@ -71,4 +71,11 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 
 ![image](https://user-images.githubusercontent.com/86629562/185747500-ac73c549-c6e5-419b-a412-a7c8f4b66214.png)
 
-* [...]
+* Then in the .env file put your Google account to send emails and the App password.
+* Done!
+
+## THINGS TO KNOW
+
+This program need to be running all the time in the machine. If someone send a new application in Google Forms and the program is off, this person will never recive the confirmation email. (I'm working to fix that.)
+ 
+ Any questions or suggestions, please send me a message!
