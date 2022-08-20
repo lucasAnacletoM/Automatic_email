@@ -66,4 +66,9 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 
+* After that, you need to put the spreadsheet ID in the .env file.
+* The spreadsheet ID is on the pink words in the next image:
+
+![image](https://user-images.githubusercontent.com/86629562/185747500-ac73c549-c6e5-419b-a412-a7c8f4b66214.png)
+
 * [...]
