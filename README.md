@@ -60,7 +60,7 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 * Download JSON
 * Place the JSON file in the same project folder
 * rename the downloaded JSON to key.json (if you change the in the code, you can rename to the name you want!)
-* To install the Google client library for Python, run the following command:
+* To install the Google client library for Python, run the following command in terminal:
 
 ```  
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
