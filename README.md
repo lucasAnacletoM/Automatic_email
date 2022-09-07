@@ -58,4 +58,24 @@ Now you need to enable Google APIs (Google Drive and Google Sheats)
 * And name your OAuth 2.0 client.
 * In OAuth 2.0 Client IDs click in Download OAuth client.
 * Download JSON
-* [...]
+* Place the JSON file in the same project folder
+* rename the downloaded JSON to key.json (if you change the in the code, you can rename to the name you want!)
+* To install the Google client library for Python, run the following command in terminal:
+
+```  
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+```
+
+* After that, you need to put the spreadsheet ID in the .env file.
+* To take your spreadsheet ID, go to the URL of the spreadsheet and take the code located on the pink spot in the next image:
+
+![image](https://user-images.githubusercontent.com/86629562/185747500-ac73c549-c6e5-419b-a412-a7c8f4b66214.png)
+
+* Then in the .env file put your Google account to send emails and the App password.
+* Done!
+
+## THINGS TO KNOW
+
+This program need to be running all the time in the machine. If someone send a new application in Google Forms and the program is off, this person will never recive the confirmation email. (I'm working to fix that.)
+ 
+ Any questions or suggestions, please send me a message!
