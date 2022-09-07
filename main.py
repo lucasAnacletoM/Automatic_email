@@ -50,7 +50,7 @@ while True:
         width_of_old_spreadsheet = width_of_spreedsheet
         send_email()
 
-    values, width_of_spreedsheet = autenticate.authenticate_with_google()
+    values, width_of_spreedsheet = authenticate.authenticate_with_google()
 
     # this print is to show if the program is running.
     print(f"Analyzing changes {width_of_old_spreadsheet}")
