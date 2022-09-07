@@ -45,11 +45,14 @@ def send_email():
 
 while True:
 
-    while spreadsheet_width == old_spreadsheet_width:
-        values, spreadsheet_width = authenticate.authenticate_with_google()
-        time.sleep(3)
-        # this print is to show if the program is running.
-        print(f"Analyzing changes {old_spreadsheet_width}")
-    old_spreadsheet_width = spreadsheet_width
-    print(old_spreadsheet_width)
-    send_email()
+    if width_of_spreedsheet != width_of_old_spreadsheet:
+
+        width_of_old_spreadsheet = width_of_spreedsheet
+        send_email()
+
+    values, width_of_spreedsheet = autenticate.authenticate_with_google()
+
+    # this print is to show if the program is running.
+    print(f"Analyzing changes {width_of_old_spreadsheet}")
+
+    time.sleep(3)
